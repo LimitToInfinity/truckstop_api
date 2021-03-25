@@ -1,0 +1,2 @@
+class TruckStop < ApplicationRecord
+end

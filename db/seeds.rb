@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+TruckStop.destroy_all
+
+TruckStop.create([
+  { title: "Forest", location: "Colorado Springs" },
+  { title: "Pavement", location: "Denver" },
+  { title: "Mountain", location: "Breckenridge" },
+])
